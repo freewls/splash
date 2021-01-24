@@ -2,11 +2,13 @@ syntax = "proto3";
 package freewls.splash.splash;
 
 // this line is used by starport scaffolding # genesis/proto/import
+import "splash/post.proto";
 
 option go_package = "github.com/freewls/splash/x/splash/types";
 
 // GenesisState defines the capability module's genesis state.
 message GenesisState {
     // this line is used by starport scaffolding # genesis/proto/state
+		repeated Post postList = 1; // this line is used by starport scaffolding # genesis/proto/stateField
 }
 
