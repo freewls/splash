@@ -13,6 +13,10 @@ faucet:
   coins: ["10000000token"]
   coins_max: ["69token"]
   
+# this allows the use of a VPN for edge network nodes
+init.config:
+  addr_book_strict: false
+  
 # Build:
 #   Proto:
 #    path:
