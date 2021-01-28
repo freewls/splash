@@ -19,8 +19,8 @@ validator:
 # this allows the use of a VPN for edge network nodes
 #  addr_book_strict: false
   
-# Build:
-#   Proto:
+# build:
+#   proto:
 #    path:
 #    thirdpartypaths: ["third_party/proto","proto_vendor"]
   
